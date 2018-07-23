@@ -1,0 +1,41 @@
+\documentclass[a4paper,oneside,14pt]{scrbook}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{indentfirst}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{guitar}
+\usepackage{musixtex}
+
+\usepackage{etex} %эта магическая херь избавляет от переполнения регистров TeX'а
+
+%вставка изображений из metapost (post script)
+\DeclareGraphicsRule{*}{mps}{*}{}
+
+%пометка черновика (закомментировать три строки ниже для релиза)
+\usepackage{draftwatermark}
+\SetWatermarkScale{1.5}
+\SetWatermarkText{$\beta$-версия от \today}
+
+\title{О музыке и гитаре для аналитического ума}
+\author{М.~М.~Шихов}
+\date{\today}
+
+\newtheorem{Example}{Пример}[chapter]
+\newtheorem{Rule}{Правило}[chapter]
+\newtheorem{Note}{Заметка}[chapter]
+
+\input{newcommand}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+
+    \input{ch-intro}    %что-зачем
+    \input{ch-notes}    %о нотной грамоте пару ласковых
+    \input{ch-concl}    %заключение
+    
+    \bibliographystyle{plain}
+    \bibliography{./../bibliobase}
+\end{document} %конец документа
