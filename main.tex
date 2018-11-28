@@ -24,6 +24,7 @@
 
 \newtheorem{Example}{Пример}[chapter]
 \newtheorem{Rule}{Правило}[chapter]
+\newtheorem{Definition}{Определение}[chapter]
 \newtheorem{Note}{Заметка}[chapter]
 
 \input{newcommand}
@@ -33,9 +34,10 @@
     \tableofcontents
 
     \input{ch-intro}    %что-зачем
-    \input{ch-notes}    %о нотной грамоте пару ласковых
+    \input{ch-music}    %что есть музыка
+    %\input{ch-notes}    %о нотной грамоте пару ласковых
     \input{ch-concl}    %заключение
     
     \bibliographystyle{plain}
-    \bibliography{./../bibliobase}
+    \bibliography{./bibliobase}
 \end{document} %конец документа
