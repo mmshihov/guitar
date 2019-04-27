@@ -12,5 +12,15 @@
 \relative g' {
   \override Score.BarNumber.break-visibility = ##(#t #t #t)
   \time 4/4
-  a1 a2 b g4 a b c 
+  \autoBeamOff
+  
+  <c e g>1
+  <c e g>2
+  <c e g>2
+  <c e g>2.
+  <c e g>4
+  <c e g>8
+  <c e g>
+  <c e g>[
+  <c e g>]
 }

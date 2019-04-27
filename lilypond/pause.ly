@@ -9,6 +9,12 @@
   scoreTitleMarkup = ##f
 }
 
-\relative c {
-  e f g a b 
+\relative g' {
+  \override Score.BarNumber.break-visibility = ##(#t #t #t)
+  \time 4/4
+  g1 
+  r1 
+  r2 g 
+  r4 g4 a2
+  r8 g8 a4 b2
 }
