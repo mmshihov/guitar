@@ -10,5 +10,5 @@
 }
 
 \relative c'' {
-  c d e f g a b 
+  c b bes a aes g ges f e ees d des 
 }

@@ -9,6 +9,6 @@
   scoreTitleMarkup = ##f
 }
 
-\relative c'' {
-  c d e f g a b 
+\relative c' {
+  c cis d dis e f fis g gis a ais b 
 }

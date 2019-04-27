@@ -10,5 +10,5 @@
 }
 
 \relative c' {
-  c d e f g a b c
+  c d e f g^"G" a b 
 }

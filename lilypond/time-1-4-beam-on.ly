@@ -9,6 +9,8 @@
   scoreTitleMarkup = ##f
 }
 
-\relative c'' {
-  c d e f g a b 
+\relative g' {
+  \time 1/4
+  \autoBeamOn
+  a4 a8 b g16 a b c e,32 f g a b c d e
 }

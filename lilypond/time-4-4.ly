@@ -9,6 +9,7 @@
   scoreTitleMarkup = ##f
 }
 
-\relative c'' {
-  c d e f g a b 
+\relative g' {
+  \time 4/4
+  a1 a2 b g4 a b c 
 }
