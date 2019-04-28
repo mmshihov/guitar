@@ -9,6 +9,6 @@
   scoreTitleMarkup = ##f
 }
 
-\relative c'' {
+\relative c''' {
   c^"C" d^"D" e^"E" f^"F" g^"G" a^"A" b^"B" 
 }

@@ -10,5 +10,5 @@
 }
 
 \relative c {
-  e f g a b 
+  e_"E" f_"F" g_"G" a_"A" b_"B" 
 }
