@@ -14,5 +14,5 @@
   \time 4/4
   g2~ g4 a4
   g4~ g8 a4~ a8 b4
-  g2 a4~ a8 b8  
+  a2 b4~ b8 c8  
 }
