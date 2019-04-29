@@ -10,5 +10,5 @@
 }
 
 \relative c'' {
-  b bes a aes g ges f e ees d des c 
+  b^"B" bes a^"A" aes g^"G" ges f^"F" e^"E" ees d^"D" des c^"C" 
 }

@@ -9,6 +9,8 @@
   scoreTitleMarkup = ##f
 }
 
-\relative c' {
-  c^"C" cis d^"D" dis e^"E" f^"F" fis g^"G" gis a^"A" ais b^"B" 
+\relative c'' {
+  \time 4/4
+  \tempo  "Allegretto moderato" 4 = 100
+  a4 b c d
 }
