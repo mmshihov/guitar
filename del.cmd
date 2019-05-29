@@ -8,3 +8,7 @@ del *.toc
 del *.vrb
 del *.blg
 del *.bbl
+del *.mx1 
+del *.ind 
+del *.idx
+del *.ilg
