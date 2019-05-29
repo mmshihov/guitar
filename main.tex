@@ -9,6 +9,9 @@
 \usepackage{guitar}
 \usepackage{musixtex}
 
+\usepackage{makeidx}
+\makeindex
+
 \usepackage{etex} %эта магическая херь избавляет от переполнения регистров TeX'а
 
 %вставка изображений из metapost (post script)
@@ -42,6 +45,8 @@
     \input{ch-tricks}   %нестандартные способы звукоизвлечения 
     \input{ch-concl}    %заключение
     
+    \printindex
+
     \bibliographystyle{plain}
     \bibliography{./bibliobase}
 \end{document} %конец документа
