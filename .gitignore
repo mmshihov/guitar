@@ -24,4 +24,8 @@
 *.pro.user
 *.tr.qm
 *.qm
+*.mx1 
+*.ind 
+*.idx
+*.ilg
 lilypond/out/*
